@@ -16,8 +16,8 @@ jobs:
       - checkout
       - run: |
           cd cool_counters
-          python3 -m pip3
-          pip3 install django
+          python3 -m pip
+          pip install django
           python3 manage.py migrate
           python manage.py runserver
 
