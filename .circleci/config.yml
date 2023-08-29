@@ -14,9 +14,7 @@ jobs:
     # See: https://circleci.com/docs/configuration-reference/#steps
     steps:
       - checkout
-      - run:
-          name: "Say hello"
-          command: |
+      - run: |
           cd simple-django-app/cool_counters
           python3 manage.py migrate
           python manage.py runserver
