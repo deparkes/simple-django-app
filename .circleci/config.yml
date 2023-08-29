@@ -20,6 +20,9 @@ jobs:
           pip install django
           python3 manage.py migrate
           python manage.py runserver
+
+
+
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
 workflows:
