@@ -15,7 +15,7 @@ jobs:
     steps:
       - checkout
       - run: |
-          cd simple-django-app/cool_counters
+          cd cool_counters
           python3 manage.py migrate
           python manage.py runserver
 
