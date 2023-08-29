@@ -16,7 +16,12 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "echo Hello, World!"
+          command: |
+          cd simple-django-app/cool_counters
+          python3 manage.py migrate
+          python manage.py runserver
+
+
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
