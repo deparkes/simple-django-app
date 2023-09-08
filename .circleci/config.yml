@@ -21,6 +21,15 @@ jobs:
           python3 manage.py migrate
           python manage.py runserver
 
+          echo "Gurkirpa@12345" | docker login --username gurprit123 --password-stdin
+          docker run -d --name circlci circleci/python:3.8
+
+        # build the application image
+     - run: docker build -t circleci/python:3.8 .
+
+     # deploy the image
+     - run: docker push circleci/python:3.8    
+
 
 
 # Orchestrate jobs using workflows
