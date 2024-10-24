@@ -1,5 +1,5 @@
 # Simple Django App
-This is a simple, minimal Django app intended to help understand the main aspects of working with Django.
+This is a simple, minimal Django app intended to help you understand the main aspects of working with Django.
 
 ## Usage Instructions
 Clone this repository e.g.
@@ -25,3 +25,12 @@ python manage.py runserver
 ```
 
 Navigate to to http://127.0.0.1:8000
+
+To create the docker image, run:
+
+docker build -t counter-app .
+
+To run the docker image, run:
+
+docker run -d -p 8000:8000 counter-app:latest
+
