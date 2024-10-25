@@ -1,0 +1,26 @@
+# Below are few commands ...
+#
+#  Comment from DEV
+
+git init # Initialize a new repository
+git clone <repo-url> # Clone a repository
+git status # Show the working directory status
+git add <file> # Stage changes for commit
+git commit -m "message" # Commit changes with a message
+git push origin <branch> # Push changes to the remote repository
+git pull origin <branch> # Pull changes from the remote repository
+git branch <branch-name> # Create a new branch
+git checkout <branch-name> # Switch to a different branch
+git merge <branch> # Merge a branch into the current branch
+git log # Show the commit history
+git diff # Show the differences between commits or changes
+git reset <file> # Unstage changes
+git stash # Stash changes for later use
+git stash apply # Reapply stashed changes
+git remote -v # Show remote repository URLs
+git fetch # Fetch updates from the remote repository
+git rebase <branch> # Reapply commits on top of another branch
+git tag <tag-name> # Create a tag for a specific commit
+git cherry-pick <commit-hash> # Apply a specific commit to the current branch
+
+
