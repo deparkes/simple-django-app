@@ -1,8 +1,9 @@
-# Simple Django App
+ Simple Django App
 This is a simple, minimal Django app intended to help understand the main aspects of working with Django.
 
 ## Usage Instructions
 Clone this repository e.g.
+working very hard to create changes 
 
 ```
 git clone git@github.com:deparkes/simple-django-app.git
@@ -25,3 +26,4 @@ python manage.py runserver
 ```
 
 Navigate to to http://127.0.0.1:8000
+
