@@ -1,2 +1,43 @@
-<h3>Hello, this is a simple Django webpage.</h3>
-<p>There have been {{ value }} views.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Counters</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-slate-100 flex items-center justify-center">
+
+    <div class="bg-white rounded-2xl shadow-xl p-10 max-w-md w-full text-center">
+
+        <div class="text-5xl mb-4">🚀</div>
+
+        <h1 class="text-3xl font-bold text-slate-800">
+            Cool Counters
+        </h1>
+
+        <p class="text-slate-500 mt-2">
+            Welcome to a simple Django application.
+        </p>
+
+        <div class="mt-8 bg-indigo-50 rounded-xl p-6">
+
+            <p class="text-sm uppercase tracking-wide text-indigo-600 font-semibold">
+                Total Views
+            </p>
+
+            <p class="text-6xl font-extrabold text-indigo-700 mt-2">
+                {{ value }}
+            </p>
+
+        </div>
+
+        <p class="mt-8 text-sm text-slate-400">
+            Built with Django & Tailwind CSS
+        </p>
+
+    </div>
+
+</body>
+</html>
