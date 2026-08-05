@@ -76,7 +76,8 @@ If this is the first time setting up the project and `requirements.txt` does not
 ```bash
 pip install django
 ```
-
+ 
+ 
 Then generate the dependency file:
 
 ```bash
